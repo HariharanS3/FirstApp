@@ -1,0 +1,9 @@
+<p>use-http2 works!</p>
+<button (click)="ShowComments()">Details</button>
+<ul>
+    <li *ngFor="let d of  details">
+       <div style="background-color: blue;color:whitesmoke">{{d.id}}{{d.name}}</div> 
+       <div>{{d.address}} {{d.email}} {{d.geo}}</div>
+       <hr/>
+    </li>
+</ul>

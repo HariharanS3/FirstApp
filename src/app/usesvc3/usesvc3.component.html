@@ -1,0 +1,11 @@
+<p>use-svc3 works!</p>
+<ul>
+    <li *ngFor="let n of PlugTwitter()">
+        {{n}}
+    </li>
+</ul>
+
+<hr/>
+<h3>Directly acessing the injected service</h3>
+{{svcObj.showTwNotification()}}
+
